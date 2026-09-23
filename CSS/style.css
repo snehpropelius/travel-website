@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --red: #DF6951;
+    --darkblue: #181E4B;
+    --white: #fff;
+    --btn: #e0992d;
+}
+/* header */
+.head .topnav{
+    display: flex;
+    padding: 20px 60px;
+    font-family: sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.head img{
+    height: 40px;
+}
+.head ul{
+    display: flex;
+    list-style: none;
+    height: 20px;
+}
+.head ul li{
+    padding: 0 50px;
+}
+
+/* hero */
+.hero .bgdecor img{
+    position: absolute;
+    margin-top: -110px;
+    right: 0px;
+    z-index: -2;
+}
+.hero .row{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+    align-items: center;
+}
+.hero .row .column.desc .p1{
+    width: 545px;
+    height: 30px;
+    color: var(--red);
+}
+.hero .row .column.desc h2{
+    font-size: 84px;
+    color: var(--darkblue);
+}
+.hero .row .column.desc .p2{
+    line-height: 1.6rem;
+}
+.hero .row .column.desc .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.hero .row .column.desc .buttons .btn{
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    background: var(--btn);
+    color: var(--white);
+    font-size: 15px;
+}
+.hero .row .column.desc .buttons .playdemo{
+    width: 170px;
+    height: 90px;
+    margin-top: 20px;
+}
+
+.hero .row .column.img img{
+    width: 783px;
+    height: 764px;
+}

@@ -1,57 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JADOO TRAVEL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400&family=Volkhov:wght@700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
 </head>
+
 <body>
-    <header class="head">
-        <div class="topnav">
-        <div class="logo">
-            <img src="images/Logo.png" alt="LOGO">
-        </div>
-        <div class="nav">
-        <nav>
-            <ul>
-                <li>Destinations</li>
-                <li>Hotels</li>
-                <li>Flights</li>
-                <li>Bookings</li>
-                <li>Login</li>
-                <li>SignUp</li>
-                <li>EN</li>
-            </ul>
-        </nav>
-        </div>
-        </div>
-    </header>
-    <section class="hero">
-        <div class="bgdecor">
-            <img src="images/Decore.png" alt="decore">
-        </div>
-        <div class="row">
-            <div class="column desc">
-                <p class="p1">BEST DESTINATION AROUND THE WORLD</p>
-                <h2>Travel, enjoy<br>
-                    and live a new<br>
-                    and full life
-                </h2>
-                <br><br>
-                <p class="p2">Built Wicket longer admire do barton vanity itself do in it.<br>
-                    Preferred to sportsmen it engrossed listening. Park gate <br>
-                    sell they west hard for the.</p>
-                <br><br>
-                <div class="buttons">
-                <button class="btn" >Find out more</button>
-                <img src="images/PlayDemo.png" alt="playdemo" class="playdemo"/>
+    <div class="bgdecor">
+        <img src="images/Decore.png" alt="decore">
+    </div>
+    <div class="container">
+        <header class="head">
+            <div class="topnav">
+                <div class="logo">
+                    <img src="images/Logo.png" alt="LOGO">
+                </div>
+                <div class="nav">
+                    <nav>
+                        <ul>
+                            <li>Destinations</li>
+                            <li>Hotels</li>
+                            <li>Flights</li>
+                            <li>Bookings</li>
+                            <li>Login</li>
+                            <li><button value="signup" class="btn-signup">Sign Up</button></li>
+                            <li>
+                                <select name="languages" id="languages">
+                                    <option value="en">EN</option>
+                                    <option value="french">FRN</option>
+                                    <option value="guj">GUJ</option>
+                                    <option value="spanish">SPN</option>
+                                </select>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-            <div class="column img">
-                <img src="images/Image.png" alt="hero img">
+        </header>
+        <!-- hero -->
+        <section class="hero">
+            <div class="bgdecor">
+
             </div>
-        </div>
-    </section>
+            <div class="row">
+                <div class="column desc">
+                    <p class="p1">BEST DESTINATION AROUND THE WORLD</p>
+                    <h2>Travel, enjoy<br>
+                        and live a new<br>
+                        and full life
+                    </h2>
+                    <img src="images/Vector.svg" class="redline" alt="SVG" />
+                    <br><br>
+                    <p class="p2">Built Wicket longer admire do barton vanity itself do in it.<br>
+                        Preferred to sportsmen it engrossed listening. Park gate <br>
+                        sell they west hard for the.</p>
+                    <br><br>
+                    <div class="buttons">
+                        <button class="btn">Find out more</button>
+                        <button value="playdemo" class="playbtn"><span class="playicon">▶</span></button>
+                        <p>Play Demo</p>
+                    </div>
+                </div>
+                <div class="column img">
+                    <img src="images/Image.png" alt="hero img">
+                </div>
+            </div>
+        </section>
+        <!-- services -->
+        <section class="services">
+            <div class="cat-head">
+                <p>CATEGORY</p>
+                <h2>We Offer Best Services</h2>
+            </div>
+            <div class="category row">
+                <div class="column cat-1">
+                    <div class="img-layout c1">
+                        <div class="bg-box"></div>
+                        <img src="images/satellite-dish.svg" alt="disk">
+                    </div>
+                    <h4>Calculated Weather</h4>
+                    <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+                </div>
+                <div class="column cat-2">
+                    <div class="img-layout c2">
+                        <div class="bg-box"></div>
+                        <img src="images/Group.svg" alt="disk">
+                    </div>
+                    <h4>Best Flights</h4>
+                    <p>Engrossed listening. Park gate sell they west hard for the.</p>
+                    <div class="bg-plain"></div>
+                </div>
+                <div class="column cat-3">
+                    <div class="img-layout c3">
+                        <div class="bg-box"></div>
+                        <img src="images/image 25.svg" alt="disk">
+                    </div>
+                    <h4>Local Events</h4>
+                    <p>Barton vanity itself do in it. Preferd to men it engrossed listening. </p>
+                </div>
+                <div class="column cat-4">
+                    <div class="img-layout c4">
+                        <div class="bg-box"></div>
+                        <img src="images/power-supply 1.svg" alt="disk">
+                    </div>
+                    <h4>Customization</h4>
+                    <p>We deliver outsourced aviation services formilitary customers</p>
+                </div>
+            </div>
+        </section>
+        <section class="destination">
+            <div class="head">
+                <p>Top Selling</p>
+                <h2>Top Destinations</h2>
+            </div>
+            <div class="desti">
+                <div class="opt desti-1">
+                    <img src="images/Rectangle 14.svg" alt="rome" class="img-dest1" />
+                    <div class="col">
+                        <div class="row">
+                            <p>Rome, italy</p>
+                            <p>$5,42K</p>
+                        </div>
+                        <div class="row">
+                            <p>10 Days Trip</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="opt desti-2">
+                    <img src="images/clock.svg" alt="rome" class="img-dest1" />
+                    <div class="col">
+                        <div class="row">
+                            <p>London, UK</p>
+                            <p>$4.2K</p>
+                        </div>
+                        <div class="row">
+                            <p>12 Days Trip</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="opt desti-3">
+                    <img src="images/dest3.svg" alt="rome" class="img-dest1" />
+                    <div class="col">
+                        <div class="row">
+                            <p>Full Europe</p>
+                            <p>$15K</p>
+                        </div>
+                        <div class="row">
+                            <p>28 Days Trip</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
+
 </html>
